@@ -14,7 +14,7 @@ let title = document.querySelector("h1");
     title.innerHTML = " player 2 wins!";
 
  }else {
-    title,innerHTML = "draw!";
+    title.innerHTML = "draw!";
  }
 }
 window.onload = dice;
